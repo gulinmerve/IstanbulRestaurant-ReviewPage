@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+
+body {
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+    color: #333;
+    font-family: 'Droid Sans';
+}
+body {
+  text-align: center;
+  font-family: 'Droid Sans';
+  color: rgb(53,72,103);
+  line-height: 1.2;
+}
+
+h1 {
+  width: fit-content;
+  font-family: 'Droid Sans';
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  font-weight: normal;
+  color:  rgb(53,72,103);
+}
+
+h2 { color:  rgb(53,72,103);
+  text-align: center;
+  font-family: 'Droid Sans';
+}
+
+form {
+  box-sizing:border-box;
+  border: 5px solid rgb(100,100,100);
+  padding: 5px;
+  outline: none;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 16px;  
+  font-family: 'Droid Sans';
+}
+
+img{
+  border: gray solid 10px;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+  
+.review {
+  display: inline-block;
+  margin: 2rem;
+  padding: 1.1rem;
+  max-width: box-max-width;
+  border-radius: radius-value;
+  border: 1px solid grey;
+  background-color: light-grey;
+  box-shadow: 0px 0px 15px rgba(black, 0.25);
+  font-family: 'Droid Sans';;
+}
+.score {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+  
+.score-stars {
+      margin-left: 0.5rem;
+}
+  
+#overallrating {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#submit {
+    font-size: larger;
+    margin: 16px 0px 16px 50px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color:  rgb(53,72,103);
+    cursor: pointer;
+}
+#submit:hover {
+    background: purple;
+    color:white;
+}

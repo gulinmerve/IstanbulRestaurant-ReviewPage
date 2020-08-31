@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Istanbul Restaurant </title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <a href="/index.html">Home</a> |
+        <a href="/about-us.html">About Us</a> |
+        <a href="/menu.html">Menu</a> |
+        <a href="/locations.html/">Locations</a> |
+        <a href="/gallery.html">Gallery</a> |
+        <a href="/contact-us.html">Contact Us</a> |
+        <a href="/reviews.html">Reviews</a> |
+        <a href="/book-now.html">Book Now</a>
+    </nav>
+
+    <h1><i><b>Istanbul Restaurant</i></b></h1>
+    <img src="./images/kizkulesi-restaurant.jpg" width="50" height="50" alt="Istanbul Restaurant">
+  
+    <h2><i>Your Reviews</i></h2>
+    <p><i>Your reviews are important to us. Thanks.</i></p>
+
+    <div class="review">
+        <h4 class="review__title">Perfect!</h4>
+        <div class="review__score">
+          <span class="score">4.9</span>
+          <span class="score-stars">⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="review__text"><p><i>Had dinner with girl friends. Menu is perfect, something for everyone. Service was awesome and the headwaiter was very accommodating. Will be back definitely!</i>" – <small>Julia Roberts</small></p></div>
+    </div>
+    
+
+    <div class="review">
+        <h4 class="review__title">Wonderful Landscape...</h4>
+        <div class="review__score">
+            <span class="score">4.2</span>
+            <span class="score-stars">⭐⭐⭐⭐</span>
+        </div>
+        <div class="review__text"><p><i>I had lunch with some of my colleagues. I ate Turkish kebap - it was delicious.  The landscape is wonderful. The service was excellent.</i>" – <small>Tom Curise</small></p></div>
+    </div>
+
+    <h2>Review Us</h2>
+    <form>
+        <label for="overallrating">Your Overall Rating of Istanbul Restaurant </label> <br>
+        <select name="overallrating" id="overallrating">
+            <option value="0">Select</option> 
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+
+        <p>How did you hear about us?</p>
+            <label class="radio-inline"><input type="radio" name="relationtoworkplace">Friend</label>
+            <label class="radio-inline"><input type="radio" name="relationtoworkplace">Social Media</label>
+            <label class="radio-inline"><input type="radio" name="relationtoworkplace">TV Ads</label>
+            <label class="radio-inline"><input type="radio" name="relationtoworkplace">Other</label>
+  
+        <p>How likely will you recommend this restaurant to your family or friends?</p>
+            <input type="checkbox" name="recommend" value="livedexperience"/>Strongly Recommend
+            <input type="checkbox" name="recommend" value="carer"/>Recommend
+            <input type="checkbox" name="recommend" value="friendsfam"/>Neutral
+            <input type="checkbox" name="recommend" value="professional"/>Don't Recommend
+            <input type="checkbox" name="recommend" value="carer"/>Never Recommend
+
+        <p>Please Share Your Reviews About Istanbul Restaurant</p>
+ 
+        <textarea name="comment" rows="5" cols="60" placeholder="type your reviews"></textarea></p>
+  
+        <input type="submit" value="Submit" id="submit">
+  
+    </form>
+</body>
+</html>
